@@ -1,0 +1,12 @@
+.bread{
+    background: #f0f0f0;
+    padding: 30px 0px;
+    margin-bottom: 60px;
+}
+
+.bread .list a {
+    color: #111;
+    text-decoration: none;
+    padding: 5px 8px;
+    font-size: 14px;
+}

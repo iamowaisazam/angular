@@ -7,14 +7,19 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { ShopComponent } from './pages/shop/shop.component';
+
 
 
 
 const routes: Routes = [
-    {path:"", component:HomeComponent},
-    {path:"about", component:AboutComponent},
+  
+    {path:"shop", component:ShopComponent},
     {path:"contact", component:ContactComponent},
     {path:"services", component:ServicesComponent},
+    {path:"", component:HomeComponent},
+    {path:"**", component:NotfoundComponent},
     
 ]; 
 

@@ -1,0 +1,23 @@
+.navigation{
+    background-color: #fedc19;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu .item{
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+}

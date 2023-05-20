@@ -1,0 +1,26 @@
+.desktop-menu{
+    /* background: #fedc19; */
+    padding: 25px 0px;
+}
+
+.menu-items{
+ display: flex;   
+}
+
+.menu-items {
+    display: flex;
+    justify-content: end;
+       
+}
+
+.menu-items a{
+    text-decoration: none; 
+    /* padding: 0px 5px; */
+    margin: 0px 3px;
+    color: white;
+}
+
+.menu-items a img{
+    width: 40px;
+}
+
