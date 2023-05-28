@@ -23,4 +23,6 @@
 .menu-list a:hover{
   color: #fedc19;
 }
-
+.topbar .left,
+.topbar .right{
+font-size: 13px;}
