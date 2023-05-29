@@ -1,11 +1,12 @@
 .navigation {
     background-color: #fedc19;
-    display: block;
+    /* display: block; */
 }
 
-.menu {
+/* .menu {
     display: flex;
-}
+    display: block;
+} */
 
 /* .menu .item {} */
 
@@ -25,8 +26,17 @@
 @media (min-width: 400px) {
     .navigation {
         background-color: #fedc19;
-        display: none;
+        display: block;
+        text-align: center;
+        overflow-y: auto;
+       height: 300px;
+       margin-bottom: 10px;
     }
+    .navigation .contact-info{
+        display: none;
+
+    }
+  
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -41,8 +51,18 @@
     .navigation {
         background-color: #fedc19;
         display: block;
+        text-align: center;
+        overflow-y: auto;
+        height: 45px;
+        margin-bottom: 0px;
     }
-    
+    .menu {
+        display: flex;
+    }
+    .navigation .contact-info{
+        display: block;
+
+    }
 
 }
 
