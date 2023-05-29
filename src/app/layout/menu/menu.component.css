@@ -23,6 +23,28 @@
     width: 40px;
 }
 
+
+@media (min-width: 400px) { 
+    .menu-items{
+ display: flex;   
+ justify-content: center;
+}
+
+.desktop-menu{
+    background: #fedc19;
+    padding: 25px 0px;
+   
+}
+.desktop-menu .img{
+    text-align: center;
+}
+.desktop-menu .menu-items {
+    display: flex;
+    /* justify-content: end; */
+    margin-top: 5px;
+       
+}
+ }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .menu-items{
